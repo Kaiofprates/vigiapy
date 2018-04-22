@@ -18,12 +18,12 @@ data = str(datetime.now())
 global a 
 
 """def msn():
-	account_sid = "ACef0d9f6b1bd4bf9ef66cb9edc08e9204"
-	auth_token  = "2aa3ac696c81fd99ed0b3af1ee46de29"
+	account_sid = "#"
+	auth_token  = "#"
 	client = Client(account_sid, auth_token)
 	text = str('Evento inesperado em {}'.format(data))
-	message = client.messages.create(to="+5538992506946",
-		from_="+15104910320",
+	message = client.messages.create(to="#",
+		from_="#",
 		body = text)"""
 celip = "192.168.0.100"
 def rot():
